@@ -18,6 +18,8 @@
     [super viewDidLoad];
     NSLog(@"第一个测试项目");
     NSLog(@"第二次测试用");
+    UILabel *label = [[UILabel alloc] init];
+    [self.view addSubview:label];
 }
 
 
