@@ -20,6 +20,7 @@
     NSLog(@"第二次测试用");
     UILabel *label = [[UILabel alloc] init];
     [self.view addSubview:label];
+    UIView *view = [[UIView alloc] init];
 }
 
 
